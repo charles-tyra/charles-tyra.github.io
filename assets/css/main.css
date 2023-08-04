@@ -2186,6 +2186,7 @@ input, select, textarea {
 			}
 
 		#footer .copyright {
+			color: #413838!important;
 			list-style: none;
 			padding-left: 0;
 		}
