@@ -2234,3 +2234,8 @@ input, select, textarea {
 		text-indent: 0!important;
 		text-align: center;
 	}
+
+	hr {
+		margin-left: 24px;
+		margin-right: 24px;
+	}
