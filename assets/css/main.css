@@ -1786,7 +1786,7 @@ input, select, textarea {
 		#nav a {
 			position: relative;
 			display: inline-block;
-			color: rgb(200, 203, 168);
+			color: rgb(152, 154, 126);
 			width: 1em;
 			height: 1em;
 			line-height: 0.9em;
@@ -2227,3 +2227,10 @@ input, select, textarea {
 			color: #888888;
 			font-size: .75em;
 		}
+
+
+	.project-intro {
+		color: rgb(141, 138, 138)!important;
+		text-indent: 0!important;
+		text-align: center;
+	}
