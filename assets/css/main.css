@@ -2232,6 +2232,7 @@ input, select, textarea {
 	.project-intro {
 		color: rgb(141, 138, 138)!important;
 		text-indent: 0!important;
+		text-align: start;
 	}
 
 	hr {
@@ -2241,8 +2242,6 @@ input, select, textarea {
 
 	#resume {
 		width: 100%;
-		max-width: 680px;
-		min-height: 600px;
-		display: flex;
-		align-items: center;
+		max-width: 680px!important;
+		min-height: 600px!important;
 	}
