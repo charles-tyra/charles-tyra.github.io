@@ -2232,10 +2232,17 @@ input, select, textarea {
 	.project-intro {
 		color: rgb(141, 138, 138)!important;
 		text-indent: 0!important;
-		text-align: center;
 	}
 
 	hr {
 		margin-left: 24px;
 		margin-right: 24px;
+	}
+
+	#resume {
+		width: 100%;
+		max-width: 680px;
+		min-height: 600px;
+		display: flex;
+		align-items: center;
 	}
