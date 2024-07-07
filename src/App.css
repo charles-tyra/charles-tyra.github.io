@@ -1,0 +1,248 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a,
+abbr, acronym, address, big, cite, code, del,
+dfn, em, img, ins, kbd, q, s, samp, small, strike,
+strong, sub, sup, tt, var, b, u, i, center, dl, dt,
+dd, ol, ul, li, fieldset, form, label, legend, table,
+caption, tbody, tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption, footer, header,
+hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer,
+header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* ^ Reset CSS */
+
+#background-container {
+  display: flex;
+  align-items: center;
+}
+
+#background-img {
+  position: absolute;
+  object-fit: contain;
+
+  top: 4.5%;
+  left: 30%;
+}
+
+#body-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+  width: 100vw;
+  max-width: 1920px;
+}
+
+/* Does it make sense to have an outside to differentation the border? */
+#body{
+  display: flex;
+  position: absolute;
+  overflow: hidden;
+
+  aspect-ratio: 16/9;
+  height: auto;
+  width: calc(6370% / 64);
+  max-width: 1920px;
+  left: calc(10% / 64);
+
+  border: 1px black solid;
+}
+
+#charles-tyra {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: end;
+  overflow: hidden;
+
+  padding: 2px 12px;
+  width: calc(1400% / 64);
+  height: calc(100% / 36);
+  top: calc(100% / 36);
+  right: calc(100% / 64);
+
+  font-size: 14px;
+  letter-spacing: 1.08px;
+  color: rgb(42, 41, 41);
+
+  border: 1px solid black;
+  font-family: "mr-eaves-modern", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  /* background-color: white; */
+}
+
+#charles-tyra-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+  padding: 2px;
+  width: 65%;
+  
+  font-size: 13px;
+  letter-spacing: 1px;
+  border: 1px solid black;
+}
+
+#charles-tyra-links > a {
+  text-decoration: none;
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 11px;
+  /* color: rgb(83, 80, 80); */
+  color: black;
+}
+
+#ct-background-left {
+  position: absolute;
+  top: calc(100% / 36);
+  right: calc(1500% / 64);
+  height: calc(100% / 36);
+
+  padding: 3px 12px;
+  padding-right: 0px;
+  margin-right: 13px;
+
+  background-color: white;
+}
+
+#ct-background-right {
+  position: absolute;
+  top: calc(100% / 36);
+  right: calc(100% / 64);
+  height: calc(100% / 36);
+  width: calc(1400% / 64 * .35);
+  padding-right: 8px;
+
+  background-color: white;
+}
+
+#ct-background-top {
+  position: absolute;
+  top: calc(100% / 36);
+  right: calc(100% / 64);
+  height: calc(30% / 36);
+  width: calc(1400% / 64);
+  
+  padding-right: 14px;
+  background-color: white;
+}
+
+#ct-background-bottom {
+  position: absolute;
+  top: calc(100% / 36);
+  right: calc(100% / 64);
+  height: calc(20% / 36);
+  width: calc(1400% / 64);
+
+  margin-top: 26px;
+  padding: 1px;
+  padding-right: 14px;
+  background-color: white;
+}
+
+#links-img {
+  position: absolute;
+
+  overflow: hidden;
+  object-fit: contain;
+}
+
+#resume-download-button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-top: calc(1750% / 36);
+  margin-left: calc(100% / 64);
+
+  width: calc(400% / 64);
+  height: (100% / 36);
+
+  border: 1px solid black;
+}
+
+#resume-download-button > a {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+
+#statement-container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  top: calc(100% / 36);
+  left: calc(2500% / 64);
+  width: calc(600% / 36);
+  height: calc(200% / 64);
+
+  border: 1px solid black;
+}
+
+#statement {
+  background-color: white;
+
+  padding: 2px;
+  /* border: 1px solid black; */
+
+  font-size: 10.6px;
+  line-height: 1.1;
+  font-family: kepler-std, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#totalframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+}
+
+.vertical-line {
+  height: 10px;
+  margin-top: 1.5px;
+  border-left: 1px solid rgb(231, 226, 226);
+  /* border-left: 1px solid black; */
+}
+

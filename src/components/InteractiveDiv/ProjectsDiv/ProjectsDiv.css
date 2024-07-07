@@ -1,0 +1,68 @@
+#description-div {
+   position: absolute;
+
+   margin-top: calc(1150% / 36);
+   margin-left: calc(2100% / 64);
+
+   height: calc(600% / 36);
+   width: calc(2600% / 64);
+
+   border: 1px solid black;
+}
+
+#project-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+   object-fit: contain;
+
+   width: 100%;
+   height: 100%;
+   background-color: white;
+}
+
+#project-container > img {
+   height: 100%;
+}
+
+#tripit-img {
+   height: 100%;
+}
+
+#tripit-img-link {
+   text-decoration: none;
+   color: black;
+   font-size: 16px;
+}
+
+.on-click-button {
+   height: calc(100% / 36);
+   width: calc(100% / 64);
+
+   background-color: white;
+   border: 1px solid black;
+}
+
+#projects-div {
+   margin-top: calc(500% / 36);
+   margin-left: calc(2100% / 64);
+
+   width: calc(1400% / 64);
+   height: calc(1000% / 36);
+}
+
+#sahara-right-button {
+   margin-top: calc(700% / 36);
+   margin-left: calc(3500% / 64 + 1px);
+
+   z-index: 1;
+}
+
+#tripit-left-button {
+   margin-top: calc(800% / 36);
+   margin-left: calc(3400% / 64 + 1px);
+
+   z-index: 1;
+}
